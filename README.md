@@ -112,48 +112,6 @@ The 100-point scoring system evaluates:
 | **Patterns** | -20 | Penalty for predictable sequences |
 | **Common** | -30 | Penalty for dictionary passwords |
 
-## Examples
-
-### Example 1: Strong Password
-```bash
-$ python passentropy.py -p "Tr0ub4dor&3"
-
-============================================================
-PASSWORD STRENGTH ANALYSIS REPORT
-============================================================
-
-OVERALL STRENGTH: Strong
-SECURITY SCORE: 72/100
-
-TECHNICAL DETAILS:
-  Length: 11 characters
-  Entropy: 57.5 bits
-  Character Space: 94
-
-CHARACTER COMPOSITION:
-  Lowercase: 6
-  Uppercase: 1
-  Digits: 2
-  Special: 2
-  Unique characters: 11
-
-RECOMMENDATIONS:
-  1. Consider adding more length for extra security
-============================================================
-```
-
-### Example 2: Weak Password
-```bash
-$ python passentropy.py -p "password123"
-
-OVERALL STRENGTH: Very Weak
-SECURITY SCORE: 15/100
-
-ISSUES IDENTIFIED:
-  1. Password is commonly used
-  2. Sequential characters: 123
-  3. Limited character variety
-```
 
 ## Security Best Practices
 
@@ -230,4 +188,3 @@ For issues, feature requests, or questions:
 
 ---
 
-**Made with ❤️ for better password security**
