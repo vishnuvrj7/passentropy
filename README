@@ -142,6 +142,19 @@ RECOMMENDATIONS:
 ============================================================
 ```
 
+### Example 2: Weak Password
+```bash
+$ python passentropy.py -p "password123"
+
+OVERALL STRENGTH: Very Weak
+SECURITY SCORE: 15/100
+
+ISSUES IDENTIFIED:
+  1. Password is commonly used
+  2. Sequential characters: 123
+  3. Limited character variety
+```
+
 ## Security Best Practices
 
 ### Password Creation Guidelines
@@ -217,3 +230,4 @@ For issues, feature requests, or questions:
 
 ---
 
+**Made with ❤️ for better password security**
